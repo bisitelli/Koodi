@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+header{
+    font-size: 30px;
+    text-align: center;
+}
+
+.navbar-container{
+    text-align: center;
+}
+
+.navbar{
+    padding: 0;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.navbar li{
+    display: inline;
+    border: 1px solid #5865F2;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #5865F2;
+    
+}
+
+.navbar li a{
+    display: inline-block;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.image{
+    text-align: center;
+}
+
+.img1{
+    width: 750px;
+    height: 250px;
+}
+
+.img2{
+    width: 750px;
+    height: 400px;
+}
+
+.progress-meter{
+    text-align: center;
+}
+
+.text-container{
+    text-align: center;
+}
+
+.text-container p{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.text-container p{
+    background-color: #5865F2;
+    padding: 10px;
+    border-radius: 30px;
+}
+
