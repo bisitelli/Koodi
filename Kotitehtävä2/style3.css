@@ -7,8 +7,57 @@ body{
     color: white;
 }
 
+header{
+    font-size: 30px;
+    text-align: center;
+}
+
 .welcomesign{
     text-align: center;
+}
+
+.navbar{
+    padding: 10px;
+    list-style-type: none;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.navbar-container{
+ display: flex;
+}
+
+.navbar-container div{
+    flex: 1;
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.navbar li{
+    display: inline;
+    
+}
+
+.navbar a{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #5865F2;
+    border-radius: 30px;
+    background-color: #5865F2;
+}
+
+.navbar a:hover{
+    color: #5865F2;
+    background-color: white;
 }
 
 .navbarp3{
